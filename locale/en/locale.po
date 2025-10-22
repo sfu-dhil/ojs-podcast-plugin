@@ -1,0 +1,916 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-19T16:11:11+07:00\n"
+"PO-Revision-Date: 2025-08-19T16:11:11+07:00\n"
+"Language: \n"
+
+# ---------- podcast plugin locale.po ----------
+msgid "plugins.generic.podcast.displayName"
+msgstr "Podcast Plugin"
+
+msgid "plugins.generic.podcast.description"
+msgstr "Plugin for managing Podcasts in OJS."
+
+msgid "common.downloadAudio"
+msgstr "Download Audio"
+
+msgid "plugins.generic.podcast.guid"
+msgstr "GUID"
+
+msgid "plugins.generic.podcast.rssFeed"
+msgstr "RSS Feed"
+
+msgid "plugins.generic.podcast.podcastSource"
+msgstr "Website Source"
+
+msgid "plugins.generic.podcast.explicit"
+msgstr "Explicit"
+
+msgid "plugins.generic.podcast.episodeType"
+msgstr "Episode Type"
+
+msgid "plugins.generic.podcast.episodeType.full"
+msgstr "Full"
+
+msgid "plugins.generic.podcast.episodeType.bonus"
+msgstr "Bonus"
+
+msgid "plugins.generic.podcast.episodeType.trailer"
+msgstr "Trailer"
+
+msgid "plugins.generic.podcast.validator.episodeType"
+msgstr "Must be one of Full, Bonus, or Trailer."
+
+msgid "plugins.generic.podcast.episodeNumber"
+msgstr "Episode Number"
+
+msgid "plugins.generic.podcast.episodeNumber.description"
+msgstr "Decimal numbers can be used (ex: 5.5) which may help identify bonus episodes or trailers."
+
+msgid "plugins.generic.podcast.validator.episodeNumber"
+msgstr "Must be a number"
+
+msgid "plugins.generic.podcast.episodeSlug"
+msgstr "Episode Slug"
+
+msgid "plugins.generic.podcast.duration"
+msgstr "Duration"
+
+msgid "plugins.generic.podcast.validator.duration"
+msgstr "Must be in HH:MM:SS duration format"
+
+msgid "plugins.generic.podcast.duration.description"
+msgstr "Use the HH:MM:SS duration formats (ex: 2:05:30)."
+
+msgid "plugins.generic.podcast.itunesCategories"
+msgstr "Itunes Categories"
+
+msgid "plugins.generic.podcast.itunesSubcategories"
+msgstr "Itunes Subcategories"
+
+msgid "plugins.generic.podcast.itunesCategory.arts"
+msgstr "Arts"
+
+msgid "plugins.generic.podcast.itunesSubcategory.arts_books"
+msgstr "Books"
+
+msgid "plugins.generic.podcast.itunesSubcategory.arts_design"
+msgstr "Design"
+
+msgid "plugins.generic.podcast.itunesSubcategory.arts_fashion_beauty"
+msgstr "Fashion & Beauty"
+
+msgid "plugins.generic.podcast.itunesSubcategory.arts_food"
+msgstr "Food"
+
+msgid "plugins.generic.podcast.itunesSubcategory.arts_performing_arts"
+msgstr "Performing Arts"
+
+msgid "plugins.generic.podcast.itunesSubcategory.arts_visual_arts"
+msgstr "Visual Arts"
+
+
+msgid "plugins.generic.podcast.itunesCategory.business"
+msgstr "Business"
+
+msgid "plugins.generic.podcast.itunesSubcategory.business_careers"
+msgstr "Careers"
+
+msgid "plugins.generic.podcast.itunesSubcategory.business_entrepreneurship"
+msgstr "Entrepreneurship"
+
+msgid "plugins.generic.podcast.itunesSubcategory.business_investing"
+msgstr "Investing"
+
+msgid "plugins.generic.podcast.itunesSubcategory.business_management"
+msgstr "Management"
+
+msgid "plugins.generic.podcast.itunesSubcategory.business_marketing"
+msgstr "Marketing"
+
+msgid "plugins.generic.podcast.itunesSubcategory.business_non_profit"
+msgstr "Non-Profit"
+
+msgid "plugins.generic.podcast.itunesCategory.comedy"
+msgstr "Comedy"
+
+msgid "plugins.generic.podcast.itunesSubcategory.comedy_interviews"
+msgstr "Comedy Interviews"
+
+msgid "plugins.generic.podcast.itunesSubcategory.comedy_improv"
+msgstr "Improv"
+
+msgid "plugins.generic.podcast.itunesSubcategory.comedy_stand_up"
+msgstr "Stand-Up"
+
+msgid "plugins.generic.podcast.itunesCategory.education"
+msgstr "Education"
+
+msgid "plugins.generic.podcast.itunesSubcategory.education_courses"
+msgstr "Courses"
+
+msgid "plugins.generic.podcast.itunesSubcategory.education_how_to"
+msgstr "How To"
+
+msgid "plugins.generic.podcast.itunesSubcategory.education_language_learning"
+msgstr "Language Learning"
+
+msgid "plugins.generic.podcast.itunesSubcategory.education_self_improvement"
+msgstr "Self-Improvement"
+
+msgid "plugins.generic.podcast.itunesCategory.fiction"
+msgstr "Fiction"
+
+msgid "plugins.generic.podcast.itunesSubcategory.fiction_comedy_fiction"
+msgstr "Comedy Fiction"
+
+msgid "plugins.generic.podcast.itunesSubcategory.fiction_drama"
+msgstr "Drama"
+
+msgid "plugins.generic.podcast.itunesSubcategory.fiction_science_fiction"
+msgstr "Science Fiction"
+
+msgid "plugins.generic.podcast.itunesCategory.government"
+msgstr "Government"
+
+msgid "plugins.generic.podcast.itunesCategory.history"
+msgstr "History"
+
+msgid "plugins.generic.podcast.itunesCategory.health_fitness"
+msgstr "Health & Fitness"
+
+msgid "plugins.generic.podcast.itunesSubcategory.health_fitness_alternative_health"
+msgstr "Alternative Health"
+
+msgid "plugins.generic.podcast.itunesSubcategory.health_fitness_fitness"
+msgstr "Fitness"
+
+msgid "plugins.generic.podcast.itunesSubcategory.health_fitness_medicine"
+msgstr "Medicine"
+
+msgid "plugins.generic.podcast.itunesSubcategory.health_fitness_mental_health"
+msgstr "Mental Health"
+
+msgid "plugins.generic.podcast.itunesSubcategory.health_fitness_nutrition"
+msgstr "Nutrition"
+
+msgid "plugins.generic.podcast.itunesSubcategory.health_fitness_sexuality"
+msgstr "Sexuality"
+
+msgid "plugins.generic.podcast.itunesCategory.kids_family"
+msgstr "Kids & Family"
+
+msgid "plugins.generic.podcast.itunesSubcategory.kids_family_education_for_kids"
+msgstr "Education for Kids"
+
+msgid "plugins.generic.podcast.itunesSubcategory.kids_family_parenting"
+msgstr "Parenting"
+
+msgid "plugins.generic.podcast.itunesSubcategory.kids_family_pets_animals"
+msgstr "Pets & Animals"
+
+msgid "plugins.generic.podcast.itunesSubcategory.kids_family_stories_for_kids"
+msgstr "Stories for Kids"
+
+msgid "plugins.generic.podcast.itunesCategory.leisure"
+msgstr "Leisure"
+
+msgid "plugins.generic.podcast.itunesSubcategory.leisure_animation_manga"
+msgstr "Animation & Manga"
+
+msgid "plugins.generic.podcast.itunesSubcategory.leisure_automotive"
+msgstr "Automotive"
+
+msgid "plugins.generic.podcast.itunesSubcategory.leisure_aviation"
+msgstr "Aviation"
+
+msgid "plugins.generic.podcast.itunesSubcategory.leisure_crafts"
+msgstr "Crafts"
+
+msgid "plugins.generic.podcast.itunesSubcategory.leisure_games"
+msgstr "Games"
+
+msgid "plugins.generic.podcast.itunesSubcategory.leisure_hobbies"
+msgstr "Hobbies"
+
+msgid "plugins.generic.podcast.itunesSubcategory.leisure_home_garden"
+msgstr "Home & Garden"
+
+msgid "plugins.generic.podcast.itunesSubcategory.leisure_video_games"
+msgstr "Video Games"
+
+msgid "plugins.generic.podcast.itunesCategory.music"
+msgstr "Music"
+
+msgid "plugins.generic.podcast.itunesSubcategory.music_commentary"
+msgstr "Music Commentary"
+
+msgid "plugins.generic.podcast.itunesSubcategory.music_history"
+msgstr "Music History"
+
+msgid "plugins.generic.podcast.itunesSubcategory.music_interviews"
+msgstr "Music Interviews"
+
+msgid "plugins.generic.podcast.itunesCategory.news"
+msgstr "News"
+
+msgid "plugins.generic.podcast.itunesSubcategory.news_business"
+msgstr "Business News"
+
+msgid "plugins.generic.podcast.itunesSubcategory.news_daily"
+msgstr "Daily News"
+
+msgid "plugins.generic.podcast.itunesSubcategory.news_entertainment"
+msgstr "Entertainment News"
+
+msgid "plugins.generic.podcast.itunesSubcategory.news_commentary"
+msgstr "News Commentary"
+
+msgid "plugins.generic.podcast.itunesSubcategory.news_politics"
+msgstr "Politics"
+
+msgid "plugins.generic.podcast.itunesSubcategory.news_sports"
+msgstr "Sports News"
+
+msgid "plugins.generic.podcast.itunesSubcategory.news_tech"
+msgstr "Tech News"
+
+msgid "plugins.generic.podcast.itunesCategory.religion_spirituality"
+msgstr "Religion & Spirituality"
+
+msgid "plugins.generic.podcast.itunesSubcategory.religion_spirituality_buddhism"
+msgstr "Buddhism"
+
+msgid "plugins.generic.podcast.itunesSubcategory.religion_spirituality_christianity"
+msgstr "Christianity"
+
+msgid "plugins.generic.podcast.itunesSubcategory.religion_spirituality_hinduism"
+msgstr "Hinduism"
+
+msgid "plugins.generic.podcast.itunesSubcategory.religion_spirituality_islam"
+msgstr "Islam"
+
+msgid "plugins.generic.podcast.itunesSubcategory.religion_spirituality_judaism"
+msgstr "Judaism"
+
+msgid "plugins.generic.podcast.itunesSubcategory.religion_spirituality_religion"
+msgstr "Religion"
+
+msgid "plugins.generic.podcast.itunesSubcategory.religion_spirituality_spirituality"
+msgstr "Spirituality"
+
+msgid "plugins.generic.podcast.itunesCategory.science"
+msgstr "Science"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_astronomy"
+msgstr "Astronomy"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_chemistry"
+msgstr "Chemistry"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_earth_sciences"
+msgstr "Earth Sciences"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_life_sciences"
+msgstr "Life Sciences"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_mathematics"
+msgstr "Mathematics"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_natural_sciences"
+msgstr "Natural Sciences"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_nature"
+msgstr "Nature"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_physics"
+msgstr "Physics"
+
+msgid "plugins.generic.podcast.itunesSubcategory.science_social_sciences"
+msgstr "Social Sciences"
+
+msgid "plugins.generic.podcast.itunesCategory.society_culture"
+msgstr "Society & Culture"
+
+msgid "plugins.generic.podcast.itunesSubcategory.society_culture_documentary"
+msgstr "Documentary"
+
+msgid "plugins.generic.podcast.itunesSubcategory.society_culture_personal_journals"
+msgstr "Personal Journals"
+
+msgid "plugins.generic.podcast.itunesSubcategory.society_culture_philosophy"
+msgstr "Philosophy"
+
+msgid "plugins.generic.podcast.itunesSubcategory.society_culture_places_travel"
+msgstr "Places & Travel"
+
+msgid "plugins.generic.podcast.itunesSubcategory.society_culture_relationships"
+msgstr "Relationships"
+
+msgid "plugins.generic.podcast.itunesCategory.sports"
+msgstr "Sports"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_baseball"
+msgstr "Baseball"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_basketball"
+msgstr "Basketball"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_cricket"
+msgstr "Cricket"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_fantasy_sports"
+msgstr "Fantasy Sports"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_football"
+msgstr "Football"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_golf"
+msgstr "Golf"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_hockey"
+msgstr "Hockey"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_rugby"
+msgstr "Rugby"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_running"
+msgstr "Running"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_soccer"
+msgstr "Soccer"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_swimming"
+msgstr "Swimming"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_tennis"
+msgstr "Tennis"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_volleyball"
+msgstr "Volleyball"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_wilderness"
+msgstr "Wilderness"
+
+msgid "plugins.generic.podcast.itunesSubcategory.sports_wrestling"
+msgstr "Wrestling"
+
+msgid "plugins.generic.podcast.itunesCategory.technology"
+msgstr "Technology"
+
+msgid "plugins.generic.podcast.itunesCategory.true_crime"
+msgstr "True Crime"
+
+msgid "plugins.generic.podcast.itunesCategory.tv_film"
+msgstr "TV & Film"
+
+msgid "plugins.generic.podcast.itunesSubcategory.tv_film_after_shows"
+msgstr "After Shows"
+
+msgid "plugins.generic.podcast.itunesSubcategory.tv_film_film_history"
+msgstr "Film History"
+
+msgid "plugins.generic.podcast.itunesSubcategory.tv_film_film_interviews"
+msgstr "Film Interviews"
+
+msgid "plugins.generic.podcast.itunesSubcategory.tv_film_film_reviews"
+msgstr "Film Reviews"
+
+msgid "plugins.generic.podcast.itunesSubcategory.tv_film_tv_reviews"
+msgstr "TV Reviews"
+
+
+msgid "plugins.generic.podcast.blockTitle"
+msgstr "Listen & Subscribe"
+
+msgid "plugins.generic.podcast.blockRssFeed"
+msgstr "RSS Feed"
+
+
+msgid "plugins.generic.podcast.groups.hst.name"
+msgstr "Host"
+
+msgid "plugins.generic.podcast.groups.hst"
+msgstr "hst"
+
+msgid "plugins.generic.podcast.groups.pro.name"
+msgstr "Producer"
+
+msgid "plugins.generic.podcast.groups.pro"
+msgstr "pro"
+
+msgid "plugins.generic.podcast.groups.ivr.name"
+msgstr "Interviewer"
+
+msgid "plugins.generic.podcast.groups.ivr"
+msgstr "ivr"
+
+msgid "plugins.generic.podcast.groups.ive.name"
+msgstr "Interviewee"
+
+msgid "plugins.generic.podcast.groups.ive"
+msgstr "ive"
+
+msgid "plugins.generic.podcast.groups.aup.name"
+msgstr "Audio Producer"
+
+msgid "plugins.generic.podcast.groups.aup"
+msgstr "aup"
+
+msgid "plugins.generic.podcast.groups.ctb.name"
+msgstr "Contributor"
+
+msgid "plugins.generic.podcast.groups.ctb"
+msgstr "ctb"
+
+
+# based on `^(msgstr )?".*([Rr]ead[^y]*|[Ii]ssue|[Aa]rticle|[Jj]ournal).*"` on all ojs repo *.po files
+# ---------- locale/en/locale.po ----------
+msgid "issue.no"
+msgstr "Season"
+
+msgid "user.authorization.journalDoesNotPublish"
+msgstr "This podcast does not publish its content online."
+
+msgid "context.current"
+msgstr "Current Podcast:"
+
+msgid "context.select"
+msgstr "Switch to another podcast:"
+
+msgid "common.journalHomepageImage.altText"
+msgstr "Podcast Homepage Image"
+
+msgid "doi.manager.settings.publications"
+msgstr "Episodes"
+
+msgid "navigation.journalHelp"
+msgstr "Podcast Help"
+
+msgid "navigation.otherJournals"
+msgstr "Other Podcasts"
+
+msgid "navigation.browseByIssue"
+msgstr "By Season"
+
+msgid "navigation.skip.about"
+msgstr "Skip to about the podcast"
+
+msgid "navigation.skip.issue"
+msgstr "Skip to the current season"
+
+msgid "section.abbreviation.example"
+msgstr "(For example, Episodes=EP)"
+
+msgid "article.article"
+msgstr "Episode"
+
+msgid "article.articles"
+msgstr "Episodes"
+
+msgid "common.publication"
+msgstr "Episode"
+
+msgid "common.publications"
+msgstr "Episodes"
+
+msgid "article.journalSection"
+msgstr "Podcast Section"
+
+msgid "article.return"
+msgstr "Return to Episode Details"
+
+msgid "submission.search"
+msgstr "Episode Search"
+
+msgid "journal.currentIssue"
+msgstr "Current Season"
+
+msgid "context.contexts"
+msgstr "Podcasts"
+
+msgid "context.context"
+msgstr "Podcast"
+
+msgid "journal.viewAllIssues"
+msgstr "View All Seasons"
+
+msgid "user.noRoles.selectUsersWithoutRoles"
+msgstr "Include users with no roles in this podcast."
+
+msgid "user.showAllJournals"
+msgstr "Show My Podcasts"
+
+msgid "user.registerForOtherJournals"
+msgstr "Register for Other Podcasts"
+
+msgid "user.reviewerPrompt"
+msgstr "Would you be willing to review submissions to this podcast?"
+
+msgid "user.reviewerPrompt.optin"
+msgstr "Yes, I would like to be contacted with requests to review submissions to this podcast."
+
+msgid "user.register.contextsPrompt"
+msgstr "Which podcasts on this site would you like to register with?"
+
+msgid "user.register.noContextReviewerInterests"
+msgstr "If you requested to be a reviewer on any podcast, please enter your subject interests."
+
+msgid "user.myJournals"
+msgstr "My Podcasts"
+
+msgid "user.noRoles.chooseJournal"
+msgstr "Your account is not currently associated with any podcasts. Please choose a podcast:"
+
+msgid "user.noRoles.noRolesForJournal"
+msgstr "Your account does not currently have any roles for this podcast. Please choose from the actions below:"
+
+msgid "user.noRoles.submitArticleRegClosed"
+msgstr "Submit an Episode: Author registration is currently disabled."
+
+msgid "user.role.manager"
+msgstr "Podcast Manager"
+
+msgid "user.role.managers"
+msgstr "Podcast Managers"
+
+msgid "user.role.journalAssistant"
+msgstr "Podcast Assistant"
+
+msgid "user.role.journalAssistants"
+msgstr "Podcast Assistants"
+
+msgid "issue.issue"
+msgstr "Season"
+
+msgid "issue.issues"
+msgstr "Seasons"
+
+msgid "issue.noIssues"
+msgstr "No Seasons"
+
+msgid "issue.fullIssue"
+msgstr "Full Season"
+
+msgid "issue.nonpdf.title"
+msgstr "Season Download"
+
+msgid "issue.viewIssue"
+msgstr "View Season"
+
+msgid "issue.return"
+msgstr "Return to Season Details"
+
+msgid "doi.issue.incorrectContext"
+msgstr "Could not create a DOI for the following season: {$itemTitle}. It does not exist in the current podcast context."
+
+msgid "doi.issue.incorrectStaleStatus"
+msgstr "Could not set the DOI status to stale for the following season: {$itemTitle}. The DOI must have the \"Registered\" or \"Submitted\" status."
+
+msgid "doi.issue.notPublished"
+msgstr "Failed to mark the DOI registered for {$pubObjectTitle}. The season must be published before the status can be updated."
+
+msgid "submission.event.submissionSubmitted"
+msgstr "Episode submitted"
+
+msgid "submission.event.general.issueScheduled"
+msgstr "Submission sent to season scheduling queue"
+
+msgid "submission.event.general.issueAssigned"
+msgstr "Submission assigned to season"
+
+msgid "submission.event.general.articlePublished"
+msgstr "Episode published"
+
+msgid "reader.subscriptionRequiredLoginText"
+msgstr "Subscription required to access item. To verify subscription, log in to podcast."
+
+msgid "comments.commentsOnArticle"
+msgstr "Comments on this episode"
+
+msgid "search.results.orderBy.article"
+msgstr "Episode Title"
+
+msgid "search.results.orderBy.issue"
+msgstr "Season"
+
+msgid "search.results.orderBy.journal"
+msgstr "Podcast Title"
+
+msgid "plugins.categories.viewableFiles"
+msgstr "Episode Galley Plugins"
+
+msgid "plugins.categories.viewableFiles.description"
+msgstr "Episode Galley Plugins add support for displaying different document types as episode galleys."
+
+msgid "manager.setup.copyrightNotice.sample"
+msgstr ""
+"<h3>Proposed Creative Commons Copyright Notices</h3>\n"
+"<h4>1. Proposed Policy for Podcasts That Offer Open Access</h4>\n"
+"Authors who publish with this podcast agree to the following terms:\n"
+"<ol type=\"a\">\n"
+"\t<li>Authors retain copyright and grant the podcast right of first "
+"publication with the work simultaneously licensed under a <a target=\"_new\" "
+"href=\"https://creativecommons.org/licenses/by/3.0/\">Creative Commons "
+"Attribution License</a> that allows others to share the work with an "
+"acknowledgement of the work's authorship and initial publication in this "
+"podcast.</li>\n"
+"\t<li>Authors are able to enter into separate, additional contractual "
+"arrangements for the non-exclusive distribution of the podcast's published "
+"version of the work (e.g., post it to an institutional repository or publish "
+"it in a book), with an acknowledgement of its initial publication in this "
+"podcast.</li>\n"
+"\t<li>Authors are permitted and encouraged to post their work online (e.g., "
+"in institutional repositories or on their website) prior to and during the "
+"submission process, as it can lead to productive exchanges, as well as "
+"earlier and greater citation of published work (See <a target=\"_new\" href="
+"\"https://web-archive.southampton.ac.uk/opcit.eprints.org/oacitation-biblio."
+"html\">The Effect of Open Access</a>).</li>\n"
+"</ol>\n"
+"\n"
+"<h4>2. Proposed Policy for Podcasts That Offer Delayed Open Access</h4>\n"
+"Authors who publish with this podcast agree to the following terms:\n"
+"<ol type=\"a\">\n"
+"\t<li>Authors retain copyright and grant the podcast right of first "
+"publication, with the work [SPECIFY PERIOD OF TIME] after publication "
+"simultaneously licensed under a <a target=\"_new\" href=\""
+"https://creativecommons.org/licenses/by/3.0/\">Creative Commons Attribution "
+"License</a> that allows others to share the work with an acknowledgement of "
+"the work's authorship and initial publication in this podcast.</li>\n"
+"\t <li>Authors are able to enter into separate, additional contractual "
+"arrangements for the non-exclusive distribution of the podcast's published "
+"version of the work (e.g., post it to an institutional repository or publish "
+"it in a book), with an acknowledgement of its initial publication in this "
+"podcast.</li>\n"
+"\t <li>Authors are permitted and encouraged to post their work online (e.g., "
+"in institutional repositories or on their website) prior to and during the "
+"submission process, as it can lead to productive exchanges, as well as "
+"earlier and greater citation of published work (See <a target=\"_new\" href="
+"\"https://web-archive.southampton.ac.uk/opcit.eprints.org/oacitation-biblio."
+"html\"> The Effect of Open Access</a>).</li>\n"
+"</ol>"
+
+msgid "manager.setup.basicEditorialStepsDescription"
+msgstr ""
+"Steps: Submission Queue &gt; Submission Review &gt; Submission Editing &gt; Table of Contents.<br /><br />\n"
+"Select a model for handling these aspects of the editorial process. (To designate a Managing Editor and Section Editors, go to Editors in Podcast Management.)"
+
+msgid "manager.setup.referenceLinkingDescription"
+msgstr ""
+"<p>To enable listeners to locate online versions of the work cited by an author, the following options are available.</p>\n"
+"\n"
+"<ol>\n"
+"\t<li><strong>Add a Listening Tool</strong><p>The Podcast Manager can add \"Find References\" to the Listening Tools that accompany published items, which enables listeners to paste a reference's title and then search pre-selected scholarly databases for the cited work.</p></li>\n"
+"\t<li><strong>Embed Links in the References</strong><p>The Layout Editor can add a link to references that can be found online by using the following instructions (which can be edited).</p></li>\n"
+"</ol>"
+
+msgid "manager.people.noAdministrativeRights"
+msgstr ""
+"Sorry, you do not have administrative rights over this user. This may be because:\n"
+"\t\t<ul>\n"
+"\t\t\t<li>The user is a site administrator</li>\n"
+"\t\t\t<li>The user is active in podcasts you do not manage</li>\n"
+"\t\t</ul>\n"
+"\tThis task must be performed by a site administrator.\n"
+"\t"
+
+msgid "reviewer.pendingReviews"
+msgstr "Episodes Pending Review"
+
+msgid "reviewer.article.reviewGuidelinesDescription"
+msgstr "The Review Guidelines will provide reviewers with criteria for judging a submission's suitability for publication in the podcast, and can include any special instructions for preparing an effective and helpful review. In conducting the review, reviewers are presented with with two open text boxes, the first \"for author and editor,\" and the second \"for editor.\" Alternatively, the Podcast Manager can create a peer review form under Review Forms. In all cases, editors will have the option of including the reviews in corresponding with the author."
+
+msgid "author.submit.uploadInstructions"
+msgstr ""
+"\n"
+"<p>To upload a manuscript to this podcast, complete the following steps.</p>\n"
+"<ol>\n"
+"<li>On this page, click Browse (or Choose File) which opens a Choose File window for locating the file on the hard drive of your computer.</li>\n"
+"<li>Locate the file you wish to submit and highlight it.</li>\n"
+"<li>Click Open on the Choose File window, which places the name of the file on this page.</li>\n"
+"<li>Click Upload on this page, which uploads the file from the computer to the podcast's web site and renames it following the podcast's conventions.</li>\n"
+"<li>Once the submission is uploaded, click Save and Continue at the bottom of this page.</li>\n"
+"</ol>"
+
+msgid "submission.logType.article"
+msgstr "Episode"
+
+msgid "user.register.selectContext"
+msgstr "Select a podcast to register with:"
+
+msgid "user.register.noJournals"
+msgstr "There are no podcasts you may register with on this site."
+
+msgid "user.register.registrationDisabled"
+msgstr "This podcast is currently not accepting user registrations."
+
+msgid "user.register.readerDescription"
+msgstr "Notified by email on publication of an season of the podcast."
+
+msgid "user.register.openAccessNotificationDescription"
+msgstr "Notified by email when an season of the podcast is made open access."
+
+msgid "user.register.authorDescription"
+msgstr "Able to submit items to the podcast."
+
+msgid "user.register.reviewerDescriptionNoInterests"
+msgstr "Willing to conduct peer review of submissions to the podcast."
+
+msgid "user.register.form.emailConsentAllContexts"
+msgstr "Yes, I would like to be notified of new publications and announcements for all podcasts that I registered with."
+
+msgid "user.register.form.privacyConsentThisContext"
+msgstr "Yes, I agree to have my data collected and stored according to this podcast's <a href=\"{$privacyUrl}\" target=\"_blank\">privacy statement</a>."
+
+msgid "user.register.form.missingContextConsent"
+msgstr "You must consent to the privacy statement for any podcast with which you are registering."
+
+msgid "search.searchFor"
+msgstr "Search episodes for"
+
+msgid "search.journal"
+msgstr "By Podcast"
+
+msgid "search.allJournals"
+msgstr "All Podcasts"
+
+msgid "search.syntaxInstructions"
+msgstr ""
+"Search tips: <ul>\n"
+"<li>Search terms are case-insensitive</li>\n"
+"<li>Common words are ignored</li>\n"
+"<li>By default only episodes containing <em>all</em> terms in the query are returned (i.e., <em>AND</em> is implied)</li>\n"
+"<li>Combine multiple words with <em>OR</em> to find episodes containing either term; e.g., <em>education OR research</em></li>\n"
+"<li>Use parentheses to create more complex queries; e.g., <em>archive ((podcast OR conference) NOT theses)</em></li>\n"
+"<li>Search for an exact phrase by putting it in quotes; e.g., <em>\"open access publishing\"</em></li>\n"
+"<li>Exclude a word by prefixing it with <strong>-</strong> or <em>NOT</em>; e.g. <em>online -politics</em> or <em>online NOT politics</em></li>\n"
+"<li>Use <strong>*</strong> in a term as a wildcard to match any sequence of characters; e.g., <em>soci* morality</em> would match documents containing \"sociological\" or \"societal\"</li>\n"
+"</ul>"
+
+msgid "article.nonpdf.title"
+msgstr "Episode Download"
+
+msgid "site.journalsHosted"
+msgstr "Podcasts hosted on this site"
+
+msgid "site.journalView"
+msgstr "View Podcast"
+
+msgid "site.journalCurrent"
+msgstr "Current Season"
+
+msgid "site.noJournals"
+msgstr "There are no podcasts available."
+
+msgid "current.noCurrentIssue"
+msgstr "No Current Season"
+
+msgid "current.noCurrentIssueDesc"
+msgstr "This podcast has not published any seasons."
+
+msgid "archive.browse"
+msgstr "Browse through the older seasons"
+
+msgid "archive.issueUnavailable"
+msgstr "Season Unavailable"
+
+msgid "about.aboutContext"
+msgstr "About the Podcast"
+
+msgid "about.history"
+msgstr "Podcast History"
+
+msgid "about.authorFeesMessage"
+msgstr "This podcast charges the following author fees."
+
+msgid "about.delayedOpenAccessDescription1"
+msgstr "The contents of this podcast will be available in an open access format"
+
+msgid "about.delayedOpenAccessDescription2"
+msgstr "month(s) after an season is published."
+
+msgid "payment.loginRequired.forArticle"
+msgstr "Subscription or episode purchase required to access item. To verify subscription, access previous purchase, or purchase episode, log in to podcast."
+
+msgid "payment.loginRequired.forIssue"
+msgstr "Subscription or season purchase required to access item. To verify subscription, access previous purchase, or purchase season, log in to podcast."
+
+msgid "payment.alreadyPaidMessage"
+msgstr "Select this box if you've already sent your payment to the podcast in order to finish the submission process.  The submission will not be reviewed until the payment arrives.  Click PAY NOW above to see the payment instructions."
+
+msgid "payment.type.purchaseArticle"
+msgstr "Purchase Episode Fee"
+
+msgid "payment.type.purchaseIssue"
+msgstr "Purchase Season Fee"
+
+msgid "payment.notFound"
+msgstr "A payment has been requested, but the request has expired. Contact the Podcast Manager for details."
+
+msgid "log.author.documentRevised"
+msgstr "{$authorName} has revised episode {$submissionId}. The new file ID is {$fileId}."
+
+msgid "log.editor.decision"
+msgstr "An editor decision ({$decision}) for episode {$submissionId} was recorded by {$editorName}."
+
+msgid "log.editor.recommendation"
+msgstr "An editor recommendation ({$decision}) for episode {$submissionId} was recorded by {$editorName}."
+
+msgid "log.editor.metadataModified"
+msgstr "The metadata for this episode was modified by {$editorName}."
+
+msgid "metadata.pkp.peerReviewed"
+msgstr "Peer-reviewed Episode"
+
+msgid "notification.type.submissionSubmitted"
+msgstr "A new episode, \"{$title},\" has been submitted."
+
+msgid "notification.type.issuePublished"
+msgstr "An season has been published."
+
+msgid "notification.type.openAccess"
+msgstr "An season has been made open access."
+
+msgid "notification.savedIssueMetadata"
+msgstr "Season publication metadata saved."
+
+msgid "notification.type.editorAssignmentTask"
+msgstr "A new episode has been submitted to which an editor needs to be assigned."
+
+msgid "notification.type.userComment"
+msgstr "A listener has made a comment on \"{$title}\""
+
+msgid "user.authorization.copyeditorAssignmentMissing"
+msgstr "Access denied! You have not been assigned as a copyeditor to this episode."
+
+msgid "user.authorization.noContext"
+msgstr "No podcast was found that matched your request."
+
+msgid "user.authorization.sectionAssignment"
+msgstr "You are trying to access an episode that is not part of your section."
+
+msgid "user.authorization.invalidIssue"
+msgstr "Invalid season requested!"
+
+msgid "grid.action.createContext"
+msgstr "Create a New Podcast"
+
+msgid "editor.navigation.issues"
+msgstr "Seasons"
+
+msgid "notification.type.approveSubmission"
+msgstr "This submission is currently awaiting approval before it will appear in the season."
+
+msgid "user.profile.form.showOtherContexts"
+msgstr "Register with other podcasts"
+
+msgid "user.profile.form.hideOtherContexts"
+msgstr "Hide other podcasts"
+
+msgid "article.view.interstitial"
+msgstr "Please choose an episode file to download."
+
+msgid "search.cli.rebuildIndex.unknownJournal"
+msgstr "The given podcast path \"{$journalPath}\" could not be resolved to a podcast."
+
+msgid "editor.issues.backIssues"
+msgstr "Back Seasons"
+
+msgid "editor.issues.futureIssues"
+msgstr "Future Seasons"
+
+msgid "log.editor.submissionExpedited"
+msgstr "{$editorName} has taken the edit process for the episode {$submissionId}."
+
+msgid "catalog.sortBy"
+msgstr "Order of episodes"
+
+msgid "catalog.sortBy.categoryDescription"
+msgstr "Choose how to order episodes in this category."

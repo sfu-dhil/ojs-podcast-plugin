@@ -1,0 +1,10 @@
+# Editors
+.idea
+.vscode
+
+# Mac DS_Store
+.DS_Store
+
+# packages
+node_modules
+vendor

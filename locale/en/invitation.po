@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-19T16:11:11+07:00\n"
+"PO-Revision-Date: 2025-08-19T16:11:11+07:00\n"
+"Language: \n"
+
+# ---------- locale/en/invitation.po ----------
+msgid "invitation.role.masthead"
+msgstr "Podcast Masthead"
+
+msgid "invitation.wizard.pageTitleDescription"
+msgstr "You are inviting a user to take a role in OJS along with appearing in the podcast masthead"
+
+msgid "userInvitation.roleTable.journalMasthead"
+msgstr "Podcast Masthead"
+
+msgid "userInvitation.search.userFound"
+msgstr "The user already exists in the podcast"
+
+msgid "userInvitation.search.userNotFound"
+msgstr "The user does not have a role in this podcast"
+
+msgid "userInvitation.searchUser.stepDescription"
+msgstr "Search for the user using their email address, username or ORCID ID. Enter at least one details to get started. If the user does not exist, you can invite them to take up roles and be a part of your podcast. If the user already exist in the system, you can view user information and invite to take a additional roles."
+
+msgid "userInvitation.sendMail.stepDescription"
+msgstr "Send the user an email to let them know about the invitation, next steps, podcast GDPR polices and ORCID verification"
+

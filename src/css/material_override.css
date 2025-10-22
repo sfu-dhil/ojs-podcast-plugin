@@ -1,0 +1,17 @@
+/* add back ul list style and some padding */
+body.pkp_page_article article.obj_article_details dd.material-article-abstract-override ul {
+    list-style: inherit !important;
+    padding: revert !important;
+}
+
+/* add back some p top margin */
+body.pkp_page_article article.obj_article_details dd.material-article-abstract-override p {
+    margin-top: revert !important;
+}
+
+/* .text-sky-400 + underline */
+body.pkp_page_article article.obj_article_details dd.material-article-abstract-override a {
+    --tw-text-opacity: 1;
+    color: rgb(56 189 248 / var(--tw-text-opacity, 1)) !important;
+    text-decoration: underline !important;
+}

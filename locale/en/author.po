@@ -1,0 +1,42 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-19T16:11:11+07:00\n"
+"PO-Revision-Date: 2025-08-19T16:11:11+07:00\n"
+"Language: \n"
+
+# ---------- locale/en/author.po ----------
+msgid "author.submit.submitArticle"
+msgstr "Submit an Episode"
+
+msgid "author.submit.notAccepting"
+msgstr "This podcast is not accepting submissions at this time."
+
+msgid "author.submit.qualifyForWaiver"
+msgstr "Please consider waiving the Episode Submission Fee for this episode"
+
+msgid "author.submit.journalSection"
+msgstr "Podcast Section"
+
+msgid "author.submit.journalSectionDescription"
+msgstr "Submissions must be made to one of the podcast's sections."
+
+msgid "author.submit.form.titleRequired"
+msgstr "Please enter the title of your episode."
+
+msgid "author.submit.form.abstractRequired"
+msgstr "Please enter the abstract of your episode."
+
+msgid "author.submit.supplementaryFilesInstructions"
+msgstr "This optional step allows Supplementary Files to be added to a submission. The files, which can be in any format, might include (a) research instruments, (b) data sets, which comply with the terms of the study's research ethics review, (c) sources that otherwise would be unavailable to listeners, (d) figures and tables that cannot be integrated into the text itself, or other materials that add to the contribution of the work."
+
+msgid "author.submit.authorSubmitLoginMessage"
+msgstr "A user account is required to submit to this podcast. This allows our editors to track your submissions and contact you when the status of your submission changes, or if additional information is required from you."
+
+

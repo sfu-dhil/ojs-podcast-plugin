@@ -1,0 +1,15 @@
+@import 'plyr/dist/plyr.css';
+
+.galley_view .plyr {
+    width: 100%;
+    min-width: 400px;
+    margin: calc(50vh - 36px) auto 0;
+}
+
+.plyr--full-ui {
+    --plyr-audio-controls-background: rgb(226 232 240 / var(--tw-divide-opacity, 1));
+}
+
+.dark .plyr--full-ui {
+    --plyr-audio-controls-background: rgb(30 41 59 / var(--tw-divide-opacity, 1));
+}

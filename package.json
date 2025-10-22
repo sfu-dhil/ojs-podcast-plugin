@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "scripts": {
+    "build": "./node_modules/.bin/esbuild src/js/podcast_plyr.js src/css/podcast_plyr.css src/css/podcast_plyr_material.css src/css/material_override.css --bundle --outdir=assets",
+    "watch": "./node_modules/.bin/esbuild src/js/podcast_plyr.js src/css/podcast_plyr.css src/css/podcast_plyr_material.css src/css/material_override.css --bundle --watch --outdir=assets",
+    "test": ""
+  },
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.25.9"
+  },
+  "dependencies": {
+    "plyr": "^3.7.8"
+  }
+}

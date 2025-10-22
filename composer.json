@@ -1,0 +1,14 @@
+{
+	"require": {
+		"simplepie/simplepie": "^1.9",
+		"guzzlehttp/guzzle": "^7.10"
+	},
+	"config": {
+		"platform": {
+			"php": "8.2.0"
+		},
+		"allow-plugins": {
+			"php-http/discovery": true
+		}
+	}
+}

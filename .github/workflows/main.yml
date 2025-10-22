@@ -1,0 +1,35 @@
+name: Tagged Release
+
+on:
+  push:
+    tags:
+    - '*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.2
+      - name: Install composer deps
+        uses: ramsey/composer-install@v3
+      - name: Install Node deps
+        uses: bahmutov/npm-install@v1
+      - name: Node build
+        run: |
+          npm run build
+      - name: Build Assets
+        run: |
+          touch podcast-${{ github.ref_name }}.tar.gz
+          tar -czf podcast-${{ github.ref_name }}.tar.gz --transform "s|^\./|podcast/|" --exclude=".git" --exclude=".github" --exclude="podcast-${{ github.ref_name }}.tar.gz"  .
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: podcast-${{ github.ref_name }}.tar.gz

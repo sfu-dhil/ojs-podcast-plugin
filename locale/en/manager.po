@@ -1,0 +1,820 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-19T16:11:11+07:00\n"
+"PO-Revision-Date: 2025-08-19T16:11:11+07:00\n"
+"Language: \n"
+
+# ---------- lib/pkp/locale/en/manager.po ----------
+
+msgid "manager.announcements.form.dateExpireInstructions"
+msgstr ""
+"The announcement will be displayed to listeners until this date. Leave blank "
+"if the announcement should be displayed indefinitely."
+
+msgid "manager.setup.peerReview.description"
+msgstr ""
+"Outline the peer review policy and processes for listeners and authors. This "
+"description often includes the number of reviewers typically used in "
+"reviewing a submission, the criteria by which reviewers are asked to judge "
+"submissions, expected time required to conduct the reviews, and the "
+"principles used to select reviewers."
+
+msgid "manager.setup.metadata.dataAvailability.description"
+msgstr ""
+"A short statement describing whether or not the author(s) have made their research data available and, if so, where listeners may access it."
+
+msgid "manager.navigationMenus.form.submenuWarning"
+msgstr ""
+"When a menu item opens a submenu, it's link can not be followed on all "
+"devices. For example, if you have an \"About\" item which opens a submenu "
+"with \"Contact\" and \"Editorial Masthead\", the \"About\" link may not be "
+"reachable on all devices. In the default menu, this is handled by creating a "
+"second menu item, \"About the Podcast\", which appears in the submenu."
+
+msgid "manager.navigationMenus.about.description"
+msgstr ""
+"Link to a page displaying the About the Podcast content in Settings > Podcast"
+
+msgid "manager.navigationMenus.about.conditionalWarning"
+msgstr ""
+"This link will only be displayed if you have filled out the About the "
+"Podcast section under Settings > Podcast."
+
+msgid "manager.navigationMenus.current.description"
+msgstr "Link to your current season."
+
+msgid "manager.navigationMenus.archives.description"
+msgstr "Link to your season archive."
+
+msgid "stats.description.daysToDecision"
+msgstr ""
+"The number of days it takes for most submissions to receive the first "
+"editorial decision, such as desk rejection or send for review.<br><br>These "
+"figures indicate that 80% of submissions reach the decision within the given "
+"number of days.<br><br>This statistic attempts to describe when the majority "
+"of authors submitting to your podcast can expect a decision."
+
+msgid "plugins.importexport.common.error.unknownContext"
+msgstr "The specified podcast path, \"{$contextPath}\", does not exist."
+
+msgid "emailTemplate.variable.reviewType.doubleAnonymous"
+msgstr ""
+"This podcast conducts double-anonymous peer review. The reviewers will not "
+"see any identifying information about you or your co-authors. Similarly, you "
+"will not know who reviewed your submission, and you will not hear from the "
+"reviewers directly."
+
+msgid "emailTemplate.variable.reviewType.anonymous"
+msgstr ""
+"This podcast conducts “reviewer anonymous” peer review. Your name, and those "
+"of your coauthors, will be visible to the reviewers; however, the reviewers' "
+"identities will remain anonymous."
+
+msgid "emailTemplate.variable.reviewType.open"
+msgstr ""
+"This podcast conducts open peer review. The reviewers will see your name and "
+"affiliation, as well as the names and affiliations of your co-authors. "
+"Similarly, you will see the names and affiliations of the reviewers."
+
+msgid "emailTemplate.variable.issue.issueIdentification"
+msgstr "Season identification, including volume, number, year, and title"
+
+msgid "emailTemplate.variable.issue.issuePublishedUrl"
+msgstr "The URL to the published season"
+
+msgid "manager.editorialStatistics.description"
+msgstr "Whether or not to send a monthly email to editors with the editorial statistics of the podcast, such as accept and decline rates. Editors can unsubscribe from this email from their user profile."
+
+msgid "mailable.revisedVersionNotify.description"
+msgstr ""
+"This email is automatically sent to the assigned editor when author uploads "
+"a revised version of an episode."
+
+msgid "manager.editorialStatistics.description"
+msgstr "Whether or not to send a monthly email to editors with the editorial statistics of the podcast, such as accept and decline rates. Editors can unsubscribe from this email from their user profile."
+
+
+# ---------- locale/en/manager.po ----------
+msgid "manager.distribution.copyrightYearBasis.description"
+msgstr "Choose how a default copyright date is selected for an episode. This default can be overridden on a case-by-case basis. If you \"publish as you go\", don't use the season's publication date."
+
+msgid "manager.distribution.copyrightYearBasis.issue"
+msgstr "Use the season's publication date"
+
+msgid "manager.distribution.copyrightYearBasis.submission"
+msgstr "Use the episode's publication date"
+
+msgid "manager.distribution.publishingMode.none"
+msgstr "OJS will not be used to publish the podcast's contents online."
+
+msgid "manager.distribution.publishingMode.openAccess"
+msgstr "The podcast will provide open access to its contents."
+
+msgid "manager.distribution.publishingMode.subscription"
+msgstr "The podcast will require subscriptions to access some or all of its contents."
+
+msgid "manager.setup.enableDois.description"
+msgstr "Allow Digital Object Identifiers (DOIs) to be assigned to work published in this podcast."
+
+msgid "doi.manager.settings.doiObjectsRequired"
+msgstr "Select which items will be assigned a DOI. Most podcasts assign DOIs to episodes, but you may wish to assign DOIs to all of the published items."
+
+msgid "doi.manager.settings.doiSuffixLegacy"
+msgstr "Use default patterns.<br />%j.v%vi%i for seasons<br />%j.v%vi%i.%a for episodes<br />%j.v%vi%i.%a.g%g for galleys."
+
+msgid "manager.files.note"
+msgstr "Note: The Files Browser is an advanced feature that allows the files and directories associated with a podcast to be viewed and manipulated directly."
+
+msgid "manager.journalManagement"
+msgstr "Podcast Management"
+
+msgid "manager.language.confirmDefaultSettingsOverwrite"
+msgstr "This will replace any locale-specific podcast settings you had for this locale"
+
+msgid "manager.languages.noneAvailable"
+msgstr "Sorry, no additional languages are available. Contact your site administrator if you wish to use additional languages with this podcast."
+
+msgid "manager.languages.primaryLocaleInstructions"
+msgstr "This will be the default language for the podcast site."
+
+msgid "manager.payment.generalFeesDescription"
+msgstr "The Association Membership will appear in About the Podcast under Policies."
+
+msgid "manager.payment.options.acceptSubscriptionPayments"
+msgstr "This will activate payments for Subscriptions, where types, cost, duration and subscriptions are managed by the Podcast (Subscription) Manager."
+
+msgid "manager.payment.options.enablePayments"
+msgstr "Payments will be enabled for this podcast. Note that users will be required to log in to make payments."
+
+
+msgid "manager.payment.options.onlypdf"
+msgstr "Only Restrict Access to PDF version of seasons and episodes"
+
+msgid "manager.payment.options.publicationFee"
+msgstr "Episode Processing Charge"
+
+msgid "manager.payment.options.purchaseArticleFee"
+msgstr "Purchase Episode"
+
+msgid "manager.payment.options.purchaseIssueFee"
+msgstr "Purchase Season"
+
+msgid "manager.payment.readerFees"
+msgstr "Listener Fees"
+
+msgid "manager.payment.readerFeesDescription"
+msgstr "Selected options, along with their descriptions and fees (which can be edited below), will appear in About the Podcast under Policies, as well as at points where payment is required."
+
+msgid "manager.people.allEnrolledUsers"
+msgstr "Users Enrolled in this Podcast"
+
+msgid "manager.people.allJournals"
+msgstr "All Podcasts"
+
+msgid "manager.people.allSiteUsers"
+msgstr "Enroll a User from this Site in this Podcast"
+
+msgid "manager.people.confirmRemove"
+msgstr "Remove this user from this podcast? This action will unenroll the user from all roles within this podcast."
+
+msgid "manager.people.enrollSyncJournal"
+msgstr "With podcast"
+
+msgid "manager.people.syncUserDescription"
+msgstr "Enrollment synchronization will enroll all users enrolled in the specified role in the specified podcast into the same role in this podcast. This function allows a common set of users (e.g., Reviewers) to be synchronized between podcasts."
+
+msgid "manager.sections.readingTools"
+msgstr "Listening Tools"
+
+msgid "manager.sections.alertDelete"
+msgstr "Before this section can be deleted, you must move episodes submitted to it into other sections."
+
+msgid "manager.section.sectionEditorInstructions"
+msgstr "Add a Section Editor to this section to have submissions automatically assigned to the Section Editor. (Otherwise, Section Editors can be assigned manually, after a submission comes in.) If added, a Section Editor can be automatically assigned to oversee the REVIEW (peer review) and/or the EDITING (copyediting, layout and proofreading) of submissions to this section. Section Editors are created by clicking Section Editors under Roles in Podcast Management."
+
+msgid "manager.sections.confirmDeactivateSection.error"
+msgstr ""
+"At least one section must be active. Visit the workflow settings to disable "
+"all submissions to this podcast."
+
+msgid "manager.sections.hideTocAuthor"
+msgstr "Omit author names for section items from season' table of contents."
+
+msgid "manager.sections.hideTocTitle"
+msgstr "Omit the title of this section from season' table of contents."
+
+msgid "manager.sections.identifyTypeExamples"
+msgstr "(For example, \"Peer-reviewed Episode\", \"Non-refereed Book Review\", \"Invited Commentary\", etc.)"
+
+msgid "manager.sections.submissionIndexing"
+msgstr "Will not be included in the indexing of the podcast"
+
+msgid "manager.section.submissionsToThisSection"
+msgstr "Submissions made to this section of the podcast"
+
+msgid "manager.setup"
+msgstr "Podcast Settings"
+
+msgid "manager.setup.homepageContent"
+msgstr "Podcast Homepage Content"
+
+msgid "manager.setup.homepageContentDescription"
+msgstr "The podcast homepage consists of navigation links by default. Additional homepage content can be appended by using one or all of the following options, which will appear in the order shown."
+
+msgid "manager.setup.useStyleSheet"
+msgstr "Podcast style sheet"
+
+msgid "manager.setup.contextName"
+msgstr "Podcast Name"
+
+msgid "manager.setup.pageHeader"
+msgstr "Podcast Page Header"
+
+msgid "manager.setup.addItemtoAboutJournal"
+msgstr "Add Item to Appear in \"About the Podcast\""
+
+msgid "manager.setup.appearInAboutJournal"
+msgstr "(To appear in About the Podcast) "
+
+msgid "manager.setup.history"
+msgstr "Podcast History"
+
+msgid "manager.setup.historyDescription"
+msgstr "This text will appear in the \"About\" section of the podcast website and can be used to describe changes in titles, editorial board, and other items of relevance to the podcast's publication history."
+
+msgid "manager.setup.currentIssue"
+msgstr "Current season"
+
+msgid "manager.setup.details.description"
+msgstr "Name of podcast, ISSN, contacts, sponsors, and search engines."
+
+msgid "manager.setup.disableUserRegistration"
+msgstr "The Podcast Manager will register all user accounts. Editors or Section Editors may register user accounts for reviewers."
+
+msgid "manager.setup.disciplineDescription"
+msgstr "Useful when podcast crosses disciplinary boundaries and/or authors submit multidisciplinary items."
+
+msgid "manager.setup.disciplineProvideExamples"
+msgstr "Provide examples of relevant academic disciplines for this podcast"
+
+msgid "manager.setup.displayCurrentIssue"
+msgstr "Add the table of contents for the current season (if available)."
+
+msgid "manager.setup.emailSignature.description"
+msgstr "Emails sent automatically on behalf of the podcast will have the following signature added."
+
+msgid "manager.setup.enableAnnouncements.description"
+msgstr "Announcements may be published to inform listeners of podcast news and events. Published announcements will appear on the Announcements page."
+
+msgid "manager.setup.enableUserRegistration"
+msgstr "Visitors can register a user account with the podcast."
+
+msgid "manager.setup.focusAndScope.description"
+msgstr "Describe to authors, listeners, and librarians the range of episodes and other items the podcast will publish."
+
+msgid "manager.setup.forAuthorsToIndexTheirWorkDescription"
+msgstr ""
+"OJS adheres to the <a href=\"https://www.openarchives.org/\" target=\""
+"_blank\">Open Archives Initiative</a> Protocol for Metadata Harvesting, "
+"which is the emerging standard for providing well-indexed access to "
+"electronic research resources on a global scale. The authors will use a "
+"similar template to provide metadata for their submission. The Podcast "
+"Manager should select the categories for indexing and present authors with "
+"relevant examples to assist them in indexing their work."
+
+msgid "manager.setup.form.journalInitialsRequired"
+msgstr "The podcast initials are required."
+
+msgid "manager.setup.form.journalTitleRequired"
+msgstr "The podcast title is required."
+
+msgid "manager.setup.identity"
+msgstr "Podcast Identity"
+
+msgid "manager.setup.includeCreativeCommons"
+msgstr "For podcasts that offer immediate or delayed open access, include a Creative Commons license with all published work at the appropriate time."
+
+msgid "manager.setup.information.description"
+msgstr "Brief descriptions of the podcast for librarians and prospective authors and listeners. These are made available in the site's sidebar when the Information block has been added."
+
+msgid "manager.setup.information.forReaders"
+msgstr "For Listeners"
+
+msgid "manager.setup.initialIssue"
+msgstr "Initial season"
+
+msgid "manager.setup.initialIssueDescription"
+msgstr "Depending on the format selected, identify the season, volume, and/or year of the first season to be published with OJS:"
+
+msgid "manager.setup.journalAbbreviation"
+msgstr "Podcast Abbreviation"
+
+msgid "manager.setup.journalArchiving"
+msgstr "Podcast Archiving"
+
+msgid "manager.setup.contextSummary"
+msgstr "Podcast Summary"
+
+msgid "manager.setup.contextSummary.description"
+msgstr "Offer a brief description of your podcast to provide insight into its content and purpose."
+
+msgid "manager.setup.contextAbout"
+msgstr "About the Podcast"
+
+msgid "manager.setup.contextAbout.description"
+msgstr "Include any information about your podcast which may be of interest to listeners, authors or reviewers. This could include your open access policy, the focus and scope of the podcast, copyright notice, sponsorship disclosure, history of the podcast, a privacy statement, and inclusion in any LOCKSS or CLOCKSS archival system."
+
+msgid "manager.setup.journalHomepageContent"
+msgstr "Podcast Homepage Content"
+
+msgid "manager.setup.journalHomepageContentDescription"
+msgstr "By default, the homepage consists of navigation links. Additional homepage content can be appended by using one or all of the following options, which will appear in the order shown. Note that the current season is always accessible through the Current link in the navigation bar."
+
+msgid "manager.setup.journalHomepageHeader"
+msgstr "Podcast Homepage Header"
+
+msgid "manager.setup.journalHomepageHeader.altText"
+msgstr "Podcast Homepage Header"
+
+msgid "manager.setup.journalHomepageHeaderDescription"
+msgstr "A graphic version of the podcast's title and logo (as a .gif, .jpg, or .png file) can be uploaded for the homepage, which will replace the text version that otherwise appears."
+
+msgid "manager.setup.contextInitials"
+msgstr "Podcast initials"
+
+msgid "manager.setup.selectCountry"
+msgstr "Select the country where this podcast is located, or the country of the mailing address for the podcast or publisher."
+
+msgid "manager.setup.journalLayout"
+msgstr "Podcast Layout"
+
+msgid "manager.setup.journalLayoutDescription"
+msgstr "Choose a podcast theme and select layout components here. A podcast stylesheet may also be uploaded, which can be used to override style data in the system-wide stylesheets and theme stylesheet (if a theme is chosen)."
+
+msgid "manager.setup.journalLogo"
+msgstr "Podcast Logo"
+
+msgid "manager.setup.journalLogo.altText"
+msgstr "Podcast Logo"
+
+msgid "manager.setup.journalPageFooter"
+msgstr "Podcast Page Footer"
+
+msgid "manager.setup.journalPageFooterDescription"
+msgstr "This is the footer of your podcast. To change or update the footer, paste the HTML code in the textbox below. Examples could be another navigation bar, a counter, etc. This footer will appear on every page."
+
+msgid "manager.setup.journalPolicies"
+msgstr "Step 2. Podcast Policies"
+
+msgid "manager.setup.journalSetup"
+msgstr "Podcast Setup"
+
+msgid "manager.setup.journalSetupUpdated"
+msgstr "Your podcast setup has been updated."
+
+msgid "manager.setup.journalStyleSheetInvalid"
+msgstr "Invalid podcast stylesheet format. Accepted format is .css."
+
+msgid "manager.setup.journalTheme"
+msgstr "Podcast Theme"
+
+msgid "manager.setup.journalThumbnail"
+msgstr "Podcast thumbnail"
+
+msgid "manager.setup.journalThumbnail.description"
+msgstr "A small logo or representation of the podcast that can be used in lists of podcasts."
+
+msgid "manager.setup.contextTitle"
+msgstr "Podcast title"
+
+msgid "manager.setup.plnDescription"
+msgstr "The PKP Preservation Network (PN) provides free preservation services for any OJS podcast that meets a few basic criteria."
+
+msgid "manager.setup.plnPluginNotInstalled"
+msgstr "The PKP Preservation Network (PN) provides free preservation services for any OJS podcast that meets a few basic criteria. To archive your podcast in the PN, ask your administrator to install the PKP|PN Plugin from the Plugin Gallery."
+
+msgid "manager.setup.lockssEnable"
+msgstr "Enable LOCKSS to store and distribute podcast content at participating libraries via a LOCKSS <a href=\"{$lockssUrl}\" target=\"_blank\">Publisher Manifest</a> page."
+
+msgid "manager.setup.lockssLicenseDescription"
+msgstr "A LOCKSS license will appear in About the Podcast under Archiving: <a href=\"http://www.lockss.org/community/publishers-titles-gln/\" target=\"_blank\">LOCKSS License</a>"
+
+msgid "manager.setup.lockssRegister"
+msgstr ""
+"Identify 6-10 libraries that will register and cache the podcast. For "
+"example, turn to institutions where editors or Board members work and/or "
+"institutions already participating in LOCKSS. See <a href=\""
+"https://www.lockss.org/join-lockss/partner-communities\" target=\"_blank\">"
+"the LOCKSS community</a>."
+
+msgid "manager.setup.clockssEnable"
+msgstr "Enable CLOCKSS to store and distribute podcast content at participating libraries via a CLOCKSS <a href=\"{$clockssUrl}\" target=\"_blank\">Publisher Manifest</a> page."
+
+msgid "manager.setup.clockssLicenseDescription"
+msgstr ""
+"A CLOCKSS license will appear in About the Podcast under Archiving: <a href="
+"\"https://clockss.org\" target=\"_blank\">CLOCKSS License</a>"
+
+msgid "manager.setup.look.description"
+msgstr "Homepage header, content, podcast header, footer, navigation bar, and style sheet."
+
+msgid "manager.setup.managingTheJournal"
+msgstr "Step 4. Managing the Podcast"
+
+msgid "manager.setup.navItemIsLiteral"
+msgstr "The label value is a literal string (e.g., \"Podcast Setup\") rather than a localization message key (e.g., \"manager.setup\")"
+
+msgid "manager.setup.proofingInstructionsDescription"
+msgstr "The Proofreading Instructions will be made available to Proofreaders, Authors, Layout Editors, and Section Editors in the Submission Editing stage. Below is a default set of instructions in HTML, which can be edited or replaced by the Podcast Manager at any point (in HTML or plain text)."
+
+msgid "manager.setup.publicationScheduleDescription"
+msgstr "Podcast items can be published collectively, as part of an season with its own Table of Contents. Alternatively, individual items can be published as soon as they are ready, by adding them to the \"current\" volume's Table of Contents. Provide listeners, in About the Podcast, with a statement about the system this podcast will use and its expected frequency of publication."
+
+msgid "manager.setup.publicIdentifier"
+msgstr "Identification of Podcast Content"
+
+msgid "manager.setup.restrictSiteAccess"
+msgstr "Users must be registered and log in to view the podcast site."
+
+msgid "manager.setup.searchDescription.description"
+msgstr "Provide a brief description (50-300 characters) of the podcast which search engines can display when listing the podcast in search results."
+
+msgid "manager.setup.sectionsDefaultSectionDescription"
+msgstr "(If sections are not added, then items are submitted to the Episodes section by default.)"
+
+msgid "manager.setup.sectionsDescription"
+msgstr "To create or modify sections for the podcast (e.g., Episodes, Book Reviews, etc.), go to Section Management.<br /><br />Authors on submitting items to the podcast will designate..."
+
+msgid "manager.setup.selectEditorDescription"
+msgstr "The podcast editor who will see it through the editorial process."
+
+msgid "manager.setup.selectSectionDescription"
+msgstr "The podcast section for which the item will be considered."
+
+msgid "manager.setup.siteAccess.viewContent"
+msgstr "View Episode Content"
+
+msgid "manager.setup.stepsToJournalSite"
+msgstr "Five Steps to a Podcast Web Site"
+
+msgid "manager.setup.disableSubmissions.description"
+msgstr "Prevent users from submitting new episodes to the podcast. Submissions can be disabled for individual podcast sections on the <a href=\"{$url}\">podcast sections</a> settings page."
+
+msgid "manager.setup.disableSubmissions.notAccepting"
+msgstr "This podcast is not accepting submissions at this time. Visit the workflow settings to allow submissions."
+
+msgid "manager.setup.uniqueIdentifierDescription"
+msgstr "Episodes and season can be tagged with an identification number or string, employing a registration system such as the Digital Object Identifier System (DOI)."
+
+msgid "manager.setup.useEditorialReviewBoard"
+msgstr "An editorial/review board will be used by the podcast."
+
+msgid "manager.statistics.statistics"
+msgstr "Podcast Statistics"
+
+msgid "manager.statistics.statistics.articleViews"
+msgstr "Episode View Counts (for Authors only)"
+
+msgid "manager.statistics.statistics.description"
+msgstr "OJS calculates the following statistics for each podcast. The \"days to review\" is calculated from date of submission (or designation of Review Version) to the initial Editor Decision, while the \"days to publish\" is measured for accepted submissions from its original uploading to its publication."
+
+msgid "manager.statistics.statistics.makePublic"
+msgstr "Check items to be made available to listeners in About the Podcast."
+
+msgid "manager.statistics.statistics.registeredReaders"
+msgstr "Registered listeners"
+
+msgid "manager.subscriptionPolicies.expiryDescription"
+msgstr "Upon subscription expiry, listeners may be denied access to all subscription content or may continue to retain access to subscription content published prior to the subscription expiry date."
+
+msgid "manager.subscriptionPolicies.expiryFullDescription"
+msgstr "Listeners are denied access to all subscription content upon subscription expiry."
+
+msgid "manager.subscriptionPolicies.expiryPartialDescription"
+msgstr "Listeners are denied access to recently published subscription content, but retain access to subscription content published prior to the subscription expiry date."
+
+msgid "manager.statistics.statistics.numIssues"
+msgstr "Seasons published"
+
+msgid "manager.statistics.statistics.selectSections"
+msgstr "Select the sections for calculating this podcast's peer-reviewed statistics."
+
+msgid "manager.statistics.reports.defaultReport.articleDownloads"
+msgstr "Episode file downloads"
+
+msgid "manager.statistics.reports.defaultReport.articleAbstract"
+msgstr "Episode abstract page views"
+
+msgid "manager.statistics.reports.defaultReport.articleAbstractAndDownloads"
+msgstr "Episode abstract page views and downloads"
+
+msgid "manager.statistics.reports.defaultReport.journalIndexPageViews"
+msgstr "Podcast main page views"
+
+msgid "manager.statistics.reports.defaultReport.issuePageViews"
+msgstr "Season table of contents page views"
+
+msgid "manager.subscriptionPolicies.expiryRemindersDescription"
+msgstr "Automated email reminders (available for editing by Podcast Managers in OJS's Emails) can be sent to subscribers both before and after a subscription has expired."
+
+msgid "manager.subscriptionPolicies.openAccessNotificationDescription"
+msgstr "Registered listeners will have the option of receiving the table of contents by email when an season becomes open access."
+
+msgid "manager.subscriptionPolicies.onlinePaymentNotificationsDescription"
+msgstr "Automated email notifications (available for editing by Podcast Managers in OJS's Emails) can be sent to the Subscription Manager upon the completion of subscription online payments."
+
+msgid "manager.subscriptionPolicies.onlinePaymentDisabled"
+msgstr "<strong>Note:</strong> To enable these options, the Podcast Manager must enable the online payments module, including online payments for subscriptions, under Listener Fees."
+
+msgid "manager.subscriptionPolicies.openAccessOptions"
+msgstr "Open Access Options For Subscription Podcasts"
+
+msgid "manager.subscriptionPolicies.openAccessOptionsDescription"
+msgstr "Subscription podcasts can provide \"delayed open access\" to their published content, as well as permit \"author self-archiving\" (both of which increase readership and citation of content)."
+
+msgid "manager.subscriptions.form.subscriptionContactRequired"
+msgstr "In order to send the user a notification email, the subscription contact name and email address must be specified in the podcast Setup."
+
+msgid "manager.subscriptions.form.subscriptionExists"
+msgstr "This user already has a subscription for this podcast."
+
+msgid "manager.subscriptions.selectSubscriber.desc"
+msgstr "Subscription access privileges are automatically granted to the podcast's Podcast Managers, Editors, Section Editors, Layout Editors, Copyeditors, and Proofreaders."
+
+msgid "manager.setup.categories.description"
+msgstr "Choose the most appropriate categories from the set listed above. Listeners will be able to browse by category from the complete podcast set."
+
+msgid "manager.setup.section.description"
+msgstr "Episodes within published seasons of a podcast are organized in Sections, typically by theme or content type (e.g. Review Episodes, Research, etc)."
+
+msgid "settings.roles.gridDescription"
+msgstr "Roles are groups of users in the podcast who are given access to different permission levels and associated workflows within the podcast. There are five different permission levels: Podcast Managers have access to everything in the podcast (all content and settings); Section Editors have complete access to all assigned content; Podcast Assistants have limited access to all submissions that have been explicitly assigned to them by an editor; Reviewers can see and perform the submissions they have been assigned to review; and Authors can see and interact with a limited amount of information on their own submissions. Additionally, there are five different stage assignments that roles may be given access to: Submission, Internal Review, Review, Editorial, and Production."
+
+msgid "manager.setup.copyrightYearBasis"
+msgstr "Base new episode's copyright year on"
+
+msgid "manager.setup.copyrightYearBasis.article"
+msgstr "Episode: default year will be drawn from the episode's publication date, as in \"publish-as-you-go\"."
+
+msgid "manager.setup.copyrightYearBasis.issue"
+msgstr "Season: default year will be drawn from the season's publication date."
+
+msgid "manager.setup.resetPermissions"
+msgstr "Reset Episode Permissions"
+
+msgid "manager.setup.resetPermissions.confirm"
+msgstr "Are you sure you wish to reset permissions data for all episodes? This action can not be undone."
+
+msgid "manager.setup.resetPermissions.description"
+msgstr "Remove the copyright statement and license information for every published episode, reverting them to the podcast's current default settings. This will permanently remove all prior copyright and licensing information attached to episodes. In some cases, you may not be legally permitted to re-license work that has been published under a different license. Please take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the episodes published in your podcast."
+
+msgid "manager.setup.resetPermissions.success"
+msgstr "Episode permissions were successfully reset."
+
+msgid "grid.genres.title"
+msgstr "Episode Components"
+
+msgid "plugins.importexport.common.export.articles"
+msgstr "Episodes"
+
+msgid "plugins.importexport.common.export.issues"
+msgstr "Seasons"
+
+msgid "plugins.importexport.common.error.import.issueGalleyFileMissing"
+msgstr "An season galley could not be imported, its file is missing."
+
+msgid "plugins.importexport.common.error.issueGalleyFileMissing"
+msgstr "The season galley {$id} could not be exported, its file was not found at the path \"{$path}\"."
+
+msgid "plugins.importexport.common.error.issueCoverImageMissing"
+msgstr "The cover image of the season {$id} was not exported, its file was not found at the path \"{$path}\"."
+
+msgid "plugins.importexport.common.filter.issue"
+msgstr "Any Season"
+
+msgid "plugins.importexport.common.senderTask.warning.noDOIprefix"
+msgstr "DOI prefix is missing for the podcast with the path {$path}."
+
+msgid "manager.setup.notifications.copyPrimaryContact"
+msgstr "Send a copy to the primary contact, identified in the Podcast Settings."
+
+msgid "stats.contextStats"
+msgstr "Podcast Stats"
+
+msgid "stats.context.tooltip.text"
+msgstr "Number of visitors viewing the podcast's index page."
+
+msgid "stats.context.tooltip.label"
+msgstr "About podcast statistics"
+
+msgid "stats.context.downloadReport.description"
+msgstr "Download a CSV/Excel spreadsheet with usage statistics for this podcast matching the following parameters."
+
+msgid "stats.context.downloadReport.downloadContext.description"
+msgstr "The number of podcast's index page views."
+
+msgid "stats.context.downloadReport.downloadContext"
+msgstr "Download Podcast"
+
+msgid "stats.issueStats"
+msgstr "Season Stats"
+
+msgid "stats.issues.searchIssueDescription"
+msgstr "Search season title, volume and number"
+
+msgid "stats.issues.none"
+msgstr "No seasons were found with usage statistics matching these parameters."
+
+msgid "stats.issues.downloadReport.description"
+msgstr "Download a CSV/Excel spreadsheet with usage statistics for seasons matching the following parameters."
+
+msgid "stats.issues.downloadReport.downloadIssues.description"
+msgstr "The number of TOC views and season galley downloads for each season."
+
+msgid "stats.issues.downloadReport.downloadIssues"
+msgstr "Download Seasons"
+
+msgid "stats.issues.countOfTotal"
+msgstr "{$count} of {$total} seasons"
+
+msgid "stats.issues.tooltip.label"
+msgstr "About season statistics"
+
+msgid "stats.issues.tooltip.text"
+msgstr "<strong>Views</strong>: Number of visitors viewing the season's table of contents.<br><strong>Downloads</strong>: Number of downloads of the season galley, if one exists."
+
+msgid "stats.publicationStats"
+msgstr "Episode Stats"
+
+msgid "stats.publications.details"
+msgstr "Episode Details"
+
+msgid "stats.publications.none"
+msgstr "No episodes were found with usage statistics matching these parameters."
+
+msgid "stats.publications.countOfTotal"
+msgstr "{$count} of {$total} episodes"
+
+msgid "stats.publications.downloadReport.description"
+msgstr "Download a CSV/Excel spreadsheet with usage statistics for episodes matching the following parameters."
+
+msgid "stats.publications.downloadReport.downloadSubmissions"
+msgstr "Download Episodes"
+
+msgid "stats.publications.downloadReport.downloadSubmissions.description"
+msgstr "The number of abstract views and file downloads for each episode."
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.description"
+msgstr "Send a copy of the submission acknowledgement email to this podcast's primary contact."
+
+msgid "manager.setup.notifications.copySubmissionAckPrimaryContact.disabled.description"
+msgstr "No primary contact has been defined for this podcast. You can enter a primary contact in the <a href=\"{$url}\">podcast settings</a>."
+
+msgid "plugins.importexport.native.export.issues.results"
+msgstr "Export Seasons Results"
+
+msgid "plugins.importexport.issueGalleys.exportFailed"
+msgstr "Process failed to parse season galleys"
+
+msgid "emailTemplate.variable.context.contextName"
+msgstr "The podcast's name"
+
+msgid "emailTemplate.variable.context.contextUrl"
+msgstr "The URL to the podcast's homepage"
+
+msgid "emailTemplate.variable.context.contactName"
+msgstr "The name of the podcast's primary contact"
+
+msgid "emailTemplate.variable.context.contextAcronym"
+msgstr "The podcast's initials"
+
+msgid "emailTemplate.variable.context.contextSignature"
+msgstr "The podcast's email signature for automated emails"
+
+msgid "emailTemplate.variable.context.contactEmail"
+msgstr "The email address of the podcast's primary contact"
+
+msgid "emailTemplate.variable.context.mailingAddress"
+msgstr "The mailing address of the podcast"
+
+msgid "emailTemplate.variable.site.siteTitle"
+msgstr "Name of the website when more than one podcast is hosted"
+
+msgid "emailTemplate.variable.statisticsReportNotify.publicationStatsLink"
+msgstr "The link to the published episodes statistics page"
+
+msgid "emailTemplate.variable.issueId"
+msgstr "The season ID"
+
+msgid "emailTemplate.variable.issue.issueTableOfContents"
+msgstr "The season table of contents such as list of all associated submissions."
+
+msgid "mailable.statisticsReportNotify.description"
+msgstr ""
+"This email is automatically sent monthly to editors and podcast managers to "
+"provide them a system health overview."
+
+msgid "mailable.validateEmailContext.name"
+msgstr "Validate Email (Podcast Registration)"
+
+msgid "mailable.validateEmailContext.description"
+msgstr "This email is automatically sent to a new user when they register with the podcast when the settings require the email address to be validated."
+
+msgid "doi.description"
+msgstr "This plugin enables the assignment of the Digital Object Identifiers to seasons, episodes and galleys in OJS."
+
+msgid "doi.manager.settings.enableRepresentationDoi"
+msgstr "Episode Galleys"
+
+msgid "doi.manager.settings.galleysWithDescription"
+msgstr "Episode galleys, such as a published PDF"
+
+msgid "doi.manager.settings.doiSuffixPattern"
+msgstr "Enter a custom suffix pattern for each publication type. The custom suffix pattern may use the following symbols to generate a suffix:<br><br> "
+"<code>%j</code> Podcast Initials<br> "
+"<code>%v</code> Season Volume<br> "
+"<code>%i</code> Season Number<br> "
+"<code>%Y</code> Season Year<br> "
+"<code>%a</code> Episode ID<br> "
+"<code>%g</code> Galley ID<br> "
+"<code>%f</code> File ID<br> "
+"<code>%p</code> Page Number<br> "
+"<code>%x</code> Custom Identifier<br><br> "
+"Beware that custom suffix patterns often lead to problems generating and depositing DOIs. When using a custom suffix pattern, carefully test that editors can generate DOIs and deposit them to a registration agency like Crossref. "
+
+msgid "doi.manager.settings.doiSuffixPattern.issues"
+msgstr "for seasons"
+
+msgid "doi.manager.settings.doiSuffixPattern.submissions"
+msgstr "for episodes"
+
+msgid "doi.manager.settings.doiIssueSuffixPatternRequired"
+msgstr "Please enter the DOI suffix pattern for seasons."
+
+msgid "doi.manager.settings.doiSubmissionSuffixPatternRequired"
+msgstr "Please enter the DOI suffix pattern for episodes."
+
+msgid "doi.manager.settings.doiAssignJournalWide.description"
+msgstr "Assign DOIs to all published podcast objects that have not been assigned DOIs. This action can not be used with the individual suffix configuration. If you have modified the DOI configuration above, please save your changes before initiating this action. Assigning DOIs may take a long time, depending on the number of published objects in the podcast."
+
+msgid "doi.editor.doiObjectTypeIssue"
+msgstr "season"
+
+msgid "doi.editor.doiObjectTypeSubmission"
+msgstr "episode"
+
+msgid "doi.editor.missingIssue"
+msgstr "You can not generate a DOI until this publication has been assigned to an season."
+
+msgid "doi.editor.missingParts"
+msgstr "You can not generate a DOI because one or more parts of the DOI pattern are missing data. You may need to assign the publication to an season, set a publisher ID or enter page numbers."
+
+msgid "doi.editor.clearIssueObjectsDoi"
+msgstr "Clear Season Objects DOIs"
+
+msgid "doi.editor.clearIssueObjectsDoi.confirm"
+msgstr "Are you sure you wish to delete the existing season objects DOIs?"
+
+msgid "doi.editor.clearIssueObjectsDoi.description"
+msgstr "Use the following option to clear DOIs of all objects (episodes and galleys) currently scheduled for this season."
+
+msgid "api.issue.404.issuesNotFound"
+msgstr "The seasons you requested were not found"
+
+msgid "doi.manager.submissionDois"
+msgstr "Episode DOIs"
+
+msgid "doi.manager.issueDois"
+msgstr "Episode DOIs"
+
+msgid "mailable.decision.initialDecline.notifyAuthor.description"
+msgstr "This email notifies the author that their submission is being declined, before the review stage, because the submission does not meet the requirements for publication in the podcast."
+
+msgid "manager.institutions.noContext"
+msgstr "This institution's podcast could not be found."
+
+msgid "mailable.subscriptionNotify.description"
+msgstr "This email notifies a registered listener that the Manager has created a subscription for them. It provides the podcast's URL along with instructions for access."
+
+msgid "mailable.openAccessNotify.description"
+msgstr "This email is sent to registered listener who have requested to receive a notification email when an season becomes open access."
+
+msgid "mailable.issuePublishNotify.name"
+msgstr "Season Published Notify"
+
+msgid "mailable.issuePublishNotify.description"
+msgstr "This email is automatically sent to registered users when the new season is published."
+
+msgid "manager.manageEmails.description"
+msgstr "Edit the messages sent in emails from this podcast."
+
+msgid "mailable.submissionNeedsEditor.description"
+msgstr ""
+"This email is sent to podcast managers when a new submission is made and no editors are assigned."

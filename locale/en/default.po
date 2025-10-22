@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-19T16:11:11+07:00\n"
+"PO-Revision-Date: 2025-08-19T16:11:11+07:00\n"
+"Language: \n"
+
+# ---------- locale/en/default.po ----------
+msgid "section.default.title"
+msgstr "Episodes"
+
+msgid "section.default.abbrev"
+msgstr "EP"
+
+msgid "default.genres.article"
+msgstr "Podcast Audio File"
+
+msgid "default.contextSettings.authorGuidelines"
+msgstr ""
+"<p>Authors are invited to make a submission to this podcast. All submissions will be assessed by an editor to determine whether they meet the aims and scope of this podcast. Those considered to be a good fit will be sent for peer review before determining whether they will be accepted or rejected.</p>"
+"<p>Before making a submission, authors are responsible for obtaining permission to publish any material included with the submission, such as photos, documents and datasets. All authors identified on the submission must consent to be identified as an author. Where appropriate, research should be approved by an appropriate ethics committee in accordance with the legal requirements of the study's country.</p>"
+"<p>An editor may desk reject a submission if it does not meet minimum standards of quality. Before submitting, please ensure that the study design and research argument are structured and articulated properly. The title should be concise and the abstract should be able to stand on its own. This will increase the likelihood of reviewers agreeing to review the paper. When you're satisfied that your submission meets this standard, please follow the checklist below to prepare your submission.</p>"
+
+msgid "default.contextSettings.checklist"
+msgstr ""
+"<p>All submissions must meet the following requirements.</p>"
+"<ul>"
+"<li>This submission meets the requirements outlined in the <a href=\"{$submissionGuidelinesUrl}\">Author Guidelines</a>.</li>"
+"<li>This submission has not been previously published, nor is it before another podcast for consideration.</li>"
+"<li>All references have been checked for accuracy and completeness.</li>"
+"<li>All tables and figures have been numbered and labeled.</li>"
+"<li>Permission has been obtained to publish all photos, datasets and other material provided with this submission.</li>"
+"</ul>"
+
+msgid "default.contextSettings.privacyStatement"
+msgstr "<p>The names and email addresses entered in this podcast site will be used exclusively for the stated purposes of this podcast and will not be made available for any other purpose or to any other party.</p>"
+
+msgid "default.contextSettings.openAccessPolicy"
+msgstr "This podcast provides immediate open access to its content on the principle that making research freely available to the public supports a greater global exchange of knowledge."
+
+msgid "default.contextSettings.forReaders"
+msgstr "We encourage listeners to sign up for the publishing notification service for this podcast. Use the <a href=\"{$indexUrl}/{$contextPath}/user/register\">Register</a> link at the top of the home page for the podcast. This registration will result in the listener receiving the Table of Contents by email for each new season of the podcast. This list also allows the podcast to claim a certain level of support. See the podcast's <a href=\"{$indexUrl}/{$contextPath}/about/submissions#privacyStatement\">Privacy Statement</a>, which assures listeners that their name and email address will not be used for other purposes."
+
+msgid "default.contextSettings.forAuthors"
+msgstr "Interested in submitting to this podcast? We recommend that you review the <a href=\"{$indexUrl}/{$contextPath}/about\">About the Podcast</a> page for the podcast's section policies, as well as the <a href=\"{$indexUrl}/{$contextPath}/about/submissions#authorGuidelines\">Author Guidelines</a>. Authors need to <a href=\"{$indexUrl}/{$contextPath}/user/register\">register</a> with the podcast prior to submitting or, if already registered, can simply <a href=\"{$indexUrl}/index/login\">log in</a> and begin the five-step process."
+
+msgid "default.contextSettings.forLibrarians"
+msgstr ""
+"We encourage research librarians to list this podcast among their library's "
+"electronic podcast holdings. As well, it may be worth noting that this "
+"podcast's open source publishing system is suitable for libraries to host "
+"for their faculty members to use with podcasts they are involved in editing ("
+"see <a href=\"https://pkp.sfu.ca/ojs\">Open Journal Systems</a>)."
+
+msgid "default.contextSettings.lockssLicense"
+msgstr ""
+"This podcast utilizes the LOCKSS system to create a distributed archiving "
+"system among participating libraries and permits those libraries to create "
+"permanent archives of the podcast for purposes of preservation and "
+"restoration. <a href=\"https://www.lockss.org\">More...</a>"
+
+msgid "default.contextSettings.clockssLicense"
+msgstr ""
+"This podcast utilizes the CLOCKSS system to create a distributed archiving "
+"system among participating libraries and permits those libraries to create "
+"permanent archives of the podcast for purposes of preservation and "
+"restoration. <a href=\"https://clockss.org\">More...</a>"
+
+msgid "default.groups.name.manager"
+msgstr "Podcast manager"
+
+msgid "default.groups.plural.manager"
+msgstr "Podcast managers"
+
+msgid "default.groups.abbrev.manager"
+msgstr "PM"
+
+msgid "default.groups.name.editor"
+msgstr "Podcast editor"
+
+msgid "default.groups.plural.editor"
+msgstr "Podcast editors"
+
+msgid "default.groups.abbrev.editor"
+msgstr "PE"
+
+msgid "default.groups.name.reader"
+msgstr "Listener"
+
+msgid "default.groups.plural.reader"
+msgstr "Listeners"
+
+msgid "default.groups.abbrev.reader"
+msgstr "Listen"
